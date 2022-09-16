@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F7A92E528BDDE4200228C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7A92E428BDDE4200228C54 /* AppDelegate.swift */; };
+		0F7A92E728BDDE4200228C54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7A92E628BDDE4200228C54 /* SceneDelegate.swift */; };
+		0F7A92E928BDDE4200228C54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7A92E828BDDE4200228C54 /* ViewController.swift */; };
+		0F7A92EC28BDDE4200228C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7A92EA28BDDE4200228C54 /* Main.storyboard */; };
+		0F7A92EE28BDDE4400228C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F7A92ED28BDDE4400228C54 /* Assets.xcassets */; };
+		0F7A92F128BDDE4400228C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7A92EF28BDDE4400228C54 /* LaunchScreen.storyboard */; };
+		0F7E75C928BE79510014830A /* WatchPartyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7E75C828BE79510014830A /* WatchPartyViewController.swift */; };
+		81708352E17B734C809E2E1D /* Pods_JioWatchPartyDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE9D35C2E8427C385554B24 /* Pods_JioWatchPartyDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CE9D35C2E8427C385554B24 /* Pods_JioWatchPartyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JioWatchPartyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7A92E128BDDE4200228C54 /* JioWatchPartyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JioWatchPartyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7A92E428BDDE4200228C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F7A92E628BDDE4200228C54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0F7A92E828BDDE4200228C54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F7A92EB28BDDE4200228C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F7A92ED28BDDE4400228C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F7A92F028BDDE4400228C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F7A92F228BDDE4400228C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F7E75C828BE79510014830A /* WatchPartyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchPartyViewController.swift; sourceTree = "<group>"; };
+		694EB7C4A7CCA8A9804F625D /* Pods-JioWatchPartyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JioWatchPartyDemo.release.xcconfig"; path = "Target Support Files/Pods-JioWatchPartyDemo/Pods-JioWatchPartyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FC62DA3D3423E34D97488B00 /* Pods-JioWatchPartyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JioWatchPartyDemo.debug.xcconfig"; path = "Target Support Files/Pods-JioWatchPartyDemo/Pods-JioWatchPartyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F7A92DE28BDDE4200228C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81708352E17B734C809E2E1D /* Pods_JioWatchPartyDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7A92D828BDDE4200228C54 = {
+			isa = PBXGroup;
+			children = (
+				0F7A92E328BDDE4200228C54 /* JioWatchPartyDemo */,
+				0F7A92E228BDDE4200228C54 /* Products */,
+				56411A59C2ECEA5A5A43DE3D /* Pods */,
+				CED00DC0427B8767E3E50604 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0F7A92E228BDDE4200228C54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F7A92E128BDDE4200228C54 /* JioWatchPartyDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F7A92E328BDDE4200228C54 /* JioWatchPartyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0F7A92E428BDDE4200228C54 /* AppDelegate.swift */,
+				0F7A92E628BDDE4200228C54 /* SceneDelegate.swift */,
+				0F7A92E828BDDE4200228C54 /* ViewController.swift */,
+				0F7E75C828BE79510014830A /* WatchPartyViewController.swift */,
+				0F7A92EA28BDDE4200228C54 /* Main.storyboard */,
+				0F7A92ED28BDDE4400228C54 /* Assets.xcassets */,
+				0F7A92EF28BDDE4400228C54 /* LaunchScreen.storyboard */,
+				0F7A92F228BDDE4400228C54 /* Info.plist */,
+			);
+			path = JioWatchPartyDemo;
+			sourceTree = "<group>";
+		};
+		56411A59C2ECEA5A5A43DE3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC62DA3D3423E34D97488B00 /* Pods-JioWatchPartyDemo.debug.xcconfig */,
+				694EB7C4A7CCA8A9804F625D /* Pods-JioWatchPartyDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CED00DC0427B8767E3E50604 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CE9D35C2E8427C385554B24 /* Pods_JioWatchPartyDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F7A92E028BDDE4200228C54 /* JioWatchPartyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F7A92F528BDDE4400228C54 /* Build configuration list for PBXNativeTarget "JioWatchPartyDemo" */;
+			buildPhases = (
+				F219C658EDF2C27F7CE5DF1E /* [CP] Check Pods Manifest.lock */,
+				0F7A92DD28BDDE4200228C54 /* Sources */,
+				0F7A92DE28BDDE4200228C54 /* Frameworks */,
+				0F7A92DF28BDDE4200228C54 /* Resources */,
+				A789DE08F4C19D7F84BAFEAF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JioWatchPartyDemo;
+			productName = JioWatchPartyDemo;
+			productReference = 0F7A92E128BDDE4200228C54 /* JioWatchPartyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F7A92D928BDDE4200228C54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0F7A92E028BDDE4200228C54 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0F7A92DC28BDDE4200228C54 /* Build configuration list for PBXProject "JioWatchPartyDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F7A92D828BDDE4200228C54;
+			productRefGroup = 0F7A92E228BDDE4200228C54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F7A92E028BDDE4200228C54 /* JioWatchPartyDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F7A92DF28BDDE4200228C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7A92F128BDDE4400228C54 /* LaunchScreen.storyboard in Resources */,
+				0F7A92EE28BDDE4400228C54 /* Assets.xcassets in Resources */,
+				0F7A92EC28BDDE4200228C54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A789DE08F4C19D7F84BAFEAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JioWatchPartyDemo/Pods-JioWatchPartyDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JioWatchPartyDemo/Pods-JioWatchPartyDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JioWatchPartyDemo/Pods-JioWatchPartyDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F219C658EDF2C27F7CE5DF1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JioWatchPartyDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F7A92DD28BDDE4200228C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7A92E928BDDE4200228C54 /* ViewController.swift in Sources */,
+				0F7A92E528BDDE4200228C54 /* AppDelegate.swift in Sources */,
+				0F7A92E728BDDE4200228C54 /* SceneDelegate.swift in Sources */,
+				0F7E75C928BE79510014830A /* WatchPartyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F7A92EA28BDDE4200228C54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F7A92EB28BDDE4200228C54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F7A92EF28BDDE4400228C54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F7A92F028BDDE4400228C54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F7A92F328BDDE4400228C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F7A92F428BDDE4400228C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F7A92F628BDDE4400228C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC62DA3D3423E34D97488B00 /* Pods-JioWatchPartyDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U22L89625;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JioWatchPartyDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Usage Description";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone Usage Description";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.4;
+				PRODUCT_BUNDLE_IDENTIFIER = Agora.JioWatchPartyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F7A92F728BDDE4400228C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694EB7C4A7CCA8A9804F625D /* Pods-JioWatchPartyDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JioWatchPartyDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Usage Description";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone Usage Description";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.4;
+				PRODUCT_BUNDLE_IDENTIFIER = Agora.JioWatchPartyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F7A92DC28BDDE4200228C54 /* Build configuration list for PBXProject "JioWatchPartyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7A92F328BDDE4400228C54 /* Debug */,
+				0F7A92F428BDDE4400228C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F7A92F528BDDE4400228C54 /* Build configuration list for PBXNativeTarget "JioWatchPartyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7A92F628BDDE4400228C54 /* Debug */,
+				0F7A92F728BDDE4400228C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F7A92D928BDDE4200228C54 /* Project object */;
+}
